@@ -27,16 +27,14 @@ def getMatch(birthdays):
     in the birhdays list.
     """
     if len(birthdays) == len(set(birthdays)):
-        for a, birthdayA in enumerate(birthdays):
-            for b, birthdayB in enumerate(birthdays[a + 1 :]):
-                if birthdayA == birthdayB:
-                    return birthdayB #? Return the matching birthday.
-
+        return None #? All birthdays are unique, so return None.
+ 
     #? Compare each birthday to every other birthday:
     for a, birthdayA  in enumerate(birthdays):
         for b, birthdayB in enumerate(birthdays[a + 1 :]):
             if birthdayA == birthdayB:
                 return birthdayA    #? Return the matching birthday.
+
 
 def main():    # **Main Program**      
     #? Display the intro:
@@ -67,7 +65,7 @@ def main():    # **Main Program**
     #? Generate and displays the birthdays:
     print("Here are", numBDays, 'birthdays:')
     birthdays = getBirthdays(numBDays)
-    
+
     for i, birthday in enumerate(birthdays):
         if i != 0:
             #? Display a comma for each birthday after the birthday.
