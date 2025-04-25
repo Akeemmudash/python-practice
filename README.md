@@ -1,7 +1,5 @@
 # Python Practice
 
-## This repository contains small python projects from the book 'THE BIG BOOK OF SMALL PYTHON PROJECTS'.
-
 Each project is contained in its own file and my attempt to recreate the project is created with the same name and suffixed with \_v2.
 
 # Project Structure
