@@ -14,3 +14,5 @@ Each project is contained in its own file and my attempt to recreate the project
 - `bagels.py`: This is the original version of the Bagels game, a number guessing game where the player has to guess a secret number based on clues provided.
 - `bagels_v2.py`: This is my attempt to recreate the Bagels game, with possible improvements or changes in the implementation.
 - `birthdayparadox.py`: This project simulates the birthday paradox, which is the counterintuitive probability that in a group of people, the chance that at least two people share a birthday is surprisingly high.
+- `birthdayparadox_v2.py`: This is my attempt to recreate the birthday paradox simulation, with possible improvements or changes in the implementation.
+- `blackjack.py`: This project implements a simple version of the Blackjack card game, where the player plays against the dealer.
